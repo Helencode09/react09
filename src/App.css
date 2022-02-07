@@ -1,0 +1,44 @@
+.header1{
+  display: flex;
+  padding : 5% 10%;
+  justify-content: space-between;
+  background-color: blue;
+
+}
+
+.header1 a{
+  color: white;
+  text-decoration: none;
+}
+.body1{
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  background-color: lightskyblue;
+  gap:2rem;
+  padding:5%;
+}
+.body2{
+  display: grid;
+  grid-template-columns: repeat(3,4fr);
+  gap:2rem;
+  border-right: 2px solid grey;
+  padding-right: 2rem;
+
+}
+.product2{
+  color:  rgb(88, 18, 30);
+  padding:4% 5%;
+  background-color:white;
+  border-radius: 5%;
+
+}
+.product3{
+  color:  rgb(88, 18, 30);
+  padding:4% 5%;
+  background-color:white;  
+  border-radius: 5%; 
+}
+.body3{
+  display: grid;
+  gap:2rem;
+}
